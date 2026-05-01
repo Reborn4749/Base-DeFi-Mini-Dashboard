@@ -1,0 +1,1 @@
+let currentBalance = 0;
