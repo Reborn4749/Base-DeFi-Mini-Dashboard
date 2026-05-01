@@ -4,3 +4,7 @@ body {
     text-align: center; 
     font-family: sans-serif; 
 }
+#app { 
+    max-width: 450px; 
+    margin: 40px auto; 
+}
