@@ -11,3 +11,9 @@ body {
 h1 { 
     color: #0052FF; 
 }
+.card { 
+    background-color: #1a1f2e; 
+    padding: 20px; 
+    border-radius: 12px; 
+    margin-top: 15px; 
+}
