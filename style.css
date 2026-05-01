@@ -29,3 +29,7 @@ button {
     background-color: #ffffff; 
     color: #0052FF; 
 }
+#faucetBtn, #stakeBtn { 
+    background-color: #0052FF; 
+    color: white; 
+}
