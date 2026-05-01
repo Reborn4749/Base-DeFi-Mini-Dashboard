@@ -33,3 +33,5 @@ button {
     background-color: #0052FF; 
     color: white; 
 }
+#unstakeBtn { background-color: #FF4D4D; color: white; }
+input { padding: 10px; border-radius: 8px; border: none; width: 70%; margin-bottom: 10px; }
