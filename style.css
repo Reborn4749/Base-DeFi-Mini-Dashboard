@@ -25,3 +25,7 @@ button {
     cursor: pointer; 
     font-weight: bold; 
 }
+#connectBtn { 
+    background-color: #ffffff; 
+    color: #0052FF; 
+}
