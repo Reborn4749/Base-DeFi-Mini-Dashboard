@@ -6,3 +6,4 @@ connectBtn.addEventListener("click", function() {
     connectBtn.style.backgroundColor = "#28a745"; 
     connectBtn.style.color = "white"; 
 });
+const faucetBtn = document.getElementById("faucetBtn");
