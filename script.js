@@ -7,3 +7,8 @@ connectBtn.addEventListener("click", function() {
     connectBtn.style.color = "white"; 
 });
 const faucetBtn = document.getElementById("faucetBtn");
+faucetBtn.addEventListener("click", function() { 
+    currentBalance += 100; 
+    document.getElementById("balance").innerText = currentBalance; 
+    alert("ได้รับ 100 $BASE!"); 
+});
