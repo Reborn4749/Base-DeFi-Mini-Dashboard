@@ -24,3 +24,12 @@ document.getElementById("stakeBtn").addEventListener("click", function() {
         alert("ยอดไม่ถูกต้อง หรือเงินไม่พอ!"); 
     } 
 });
+document.getElementById("unstakeBtn").addEventListener("click", function() { 
+    if(currentStaked > 0) { 
+        currentBalance += currentStaked; 
+        currentStaked = 0; 
+        document.getElementById("balance").innerText = currentBalance; 
+        document.getElementById("staked").innerText = currentStaked; 
+        alert("Unstake นำเงินกลับเข้ากระเป๋าเรียบร้อย!"); 
+    } 
+});
