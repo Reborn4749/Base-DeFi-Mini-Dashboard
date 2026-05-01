@@ -17,3 +17,11 @@ h1 {
     border-radius: 12px; 
     margin-top: 15px; 
 }
+button { 
+    padding: 10px 15px; 
+    margin: 5px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-weight: bold; 
+}
